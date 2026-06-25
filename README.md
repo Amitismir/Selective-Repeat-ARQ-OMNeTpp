@@ -18,27 +18,7 @@ This repository contains the implementation of **Selective Repeat ARQ (Tanenbaum
 - Sequence number space \( M = 2W \)
 - Goodput measurement (only successfully delivered frames)
 
----
 
-## 📁 Project Structure
-
-```
-Selective-Repeat-ARQ-OMNeTpp/
-├── src/
-│   ├── SrcNode.cc
-│   ├── SrcNode.h
-│   ├── DstNode.cc
-│   ├── DstNode.h
-│   └── SRMessage.msg
-├── simulations/
-│   ├── SRNetwork.ned
-│   └── omnetpp.ini
-├── report/
-│   └── SelectiveRepeat_ARQ_Report.pdf
-├── results/
-├── README.md
-└── .gitignore
-```
 
 ---
 
